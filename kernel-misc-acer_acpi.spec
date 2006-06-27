@@ -28,7 +28,8 @@ Linux kernel module to allow control of some of the hardware on later
 model Acer (and other Wistron OEM) laptops.
 
 %description -l pl
-Sterownik dla Linuksa do kontroli urz±dzeñ w notebookach Acer
+Modu³ j±dra Linuksa pozwalaj±cy kontrolowaæ czê¶æ sprzêtu w nowszych
+laptopach Acera (i innych Wistron OEM).
 
 %package -n kernel-smp-misc-%{_orig_name}
 Summary:	SMP linux driver for Acer notebook hardware control
@@ -43,7 +44,8 @@ Linux SMP kernel module to allow control of some of the hardware on
 later model Acer (and other Wistron OEM) laptops.
 
 %description -n kernel-smp-misc-%{_orig_name} -l pl
-Sterownik dla Linuksa SMP do kontroli urz±dzeñ w notebookach Acer
+Modu³ j±dra Linuksa SMP pozwalaj±cy kontrolowaæ czê¶æ sprzêtu w
+nowszych laptopach Acera (i innych Wistron OEM).
 
 %prep
 %setup -q -n %{_orig_name}-%{version}
