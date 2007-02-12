@@ -7,7 +7,7 @@
 %define _orig_name	acer_acpi
 
 Summary:	Linux driver for Acer notebook hardware control
-Summary(pl.UTF-8):   Sterownik dla Linuksa do kontroli urządzeń w notebookach Acer
+Summary(pl.UTF-8):	Sterownik dla Linuksa do kontroli urządzeń w notebookach Acer
 Name:		kernel-misc-%{_orig_name}
 Version:	0.3
 Release:	%{_rel}@%{_kernel_ver_str}
@@ -34,7 +34,7 @@ laptopach Acera (i innych Wistron OEM).
 
 %package -n kernel-smp-misc-%{_orig_name}
 Summary:	SMP linux driver for Acer notebook hardware control
-Summary(pl.UTF-8):   Sterownik dla Linuksa SMP do kontroli urządzeń w notebookach Acer
+Summary(pl.UTF-8):	Sterownik dla Linuksa SMP do kontroli urządzeń w notebookach Acer
 Release:	%{_rel}@%{_kernel_ver_str}
 Group:		Base/Kernel
 %{?with_dist_kernel:%requires_releq_kernel_smp}
